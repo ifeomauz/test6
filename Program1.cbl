@@ -1,0 +1,14 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. Program1.
+
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+
+       PROCEDURE DIVISION.
+           copy ACCTREC.
+           GOBACK.
+
+       END PROGRAM Program1.
